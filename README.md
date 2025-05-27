@@ -355,6 +355,7 @@ From here you can open a ticket by clicking on "New Ticket" if you need to creat
 
 
 <p>
-  *Feel free to practice and play around in the osTicketing system and become a pro! You can start by creating an agent who can open tickets by logging into the end user interface, and then create a couple agents in different departments or teams who can work the tickets. Make sure to set up the SLAs. ChatGPT is a great tool for creating scenarios for you to practice and also to assist you in configuring your helpdesk business if you need it!! I thank you for using this tutorial for you osTicket installation and wish you the best! : )
+  *Feel free to practice and play around in the osTicketing system to become a pro! 
+  You can start by creating an agent who can open tickets by logging into the end user interface, and then create a couple of agents in different departments or teams who can work the tickets. Make sure to set up the SLAs. ChatGPT is a great tool for creating scenarios for you to practice and also to assist you in configuring your helpdesk business if you need it!! I thank you for using this tutorial for you osTicket installation and wish you the best! : )
 </p>
 <br />
