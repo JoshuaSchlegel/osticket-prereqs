@@ -337,7 +337,24 @@ From here you can open a ticket by clicking on "New Ticket" if you need to creat
 
 ![image](https://github.com/user-attachments/assets/7434417e-9ffc-4ec4-a665-17b7c337de0a)
 
+***Be sure to DELETE the RESOURCE GROUP in Microsoft Azure when you are completely done so you don't rack up charges to your subscription!***
+
+![image](https://github.com/user-attachments/assets/98bb5442-9462-489a-a3c7-024e81b42560)
+
+- Back on the Resource group page in Azure, clcik on your resource group.
+- Click Delete resource group.
+- Copy and paste the name of your resource group in the text box at the bottom and hit delete.
+- Wait and verify the resource group was deleted completely.
+- Repeat these steps for the NetworkwatcherRG resource group as well.
+
+![image](https://github.com/user-attachments/assets/feaf1d16-2025-4363-8932-1ebbdc25d2e8)
+
+![image](https://github.com/user-attachments/assets/7c0237a3-386f-42c1-a723-6fe0f9b93e64)
+
+
+
+
 <p>
-*Feel free to practice and play around in the osTicketing system and become a pro! You can start by creating an agent who can open tickets by logging into the end user interface, and then create a couple agents in different departments or teams who can work the tickets. Make sure to set up the SLAs. ChatGPT is a great tool for creating scenarios for you to practice and also to assist you in configuring your helpdesk business if you need it!! I thank you for using this tutorial for you osTicket installation and wish you the best! : )
+  *Feel free to practice and play around in the osTicketing system and become a pro! You can start by creating an agent who can open tickets by logging into the end user interface, and then create a couple agents in different departments or teams who can work the tickets. Make sure to set up the SLAs. ChatGPT is a great tool for creating scenarios for you to practice and also to assist you in configuring your helpdesk business if you need it!! I thank you for using this tutorial for you osTicket installation and wish you the best! : )
 </p>
 <br />
