@@ -278,9 +278,66 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/07676b78-636a-4037-b5fd-9b0e94d0e7aa)
 
+- Now we can go back to the osTicket Installer in our browser window and click "Continue" on the bottom of the screen.
 
+  ![image](https://github.com/user-attachments/assets/1da56536-bbc7-47ac-8893-43d0581f8aef)
+
+- I'll just name the osTicket account "Helpdesk" with a fake email for the purpose of this tutorial.
+- Just fill out the blanks for your admin account. For my admin account I'll keep it simple and use the username: admin119 and password: Password1. (***I tried to use "admin" but I got an error later on so I updated it to "admin119" for the username to be able to complete installation.***)
+
+![image](https://github.com/user-attachments/assets/916a7c9a-556f-4bca-8f0c-6b1cd9c1eee1)
+
+- Next, we will need to install HeidiSQL in the osTicket-Installation-Files folder.
+- Agree to the terms and keep hitting next until you can hit "Install".
+- Make sure the box is checked that says "Launch HeidiSQL".
+- Skip the Donate screen.
+
+![image](https://github.com/user-attachments/assets/8260d473-31de-4b3d-b869-13d5c8419437)
+
+![image](https://github.com/user-attachments/assets/faa1dc49-569a-4898-bec5-6506d8ca905a)
+
+- Click on "New" on bottom left.
+- User and Password should both be: root
+
+![image](https://github.com/user-attachments/assets/f2715e3f-ddda-4875-bd04-08ac7ac896f4)
+
+![image](https://github.com/user-attachments/assets/a4be7da2-15f2-44e8-b9e1-4b8254e99788)
+
+- Right click on "Unamed" next to the dolphin symbol towards top left.
+- Go to "Create new" -> click "Database"
+- Name the database: osTicket
+
+![image](https://github.com/user-attachments/assets/16cc8267-726d-4fbd-a278-5608d73a4408)
+
+![image](https://github.com/user-attachments/assets/5156fff3-423c-4dc6-b1d3-279051824a31)
+
+- Back in the osTicket Installer browser, fill out the information for the MySQL Database we just created.
+
+![image](https://github.com/user-attachments/assets/2c97538d-d1e3-475e-89d8-e4402fc3944b)
+
+- Click Install on the bottom to be congratulated. The two underlined links are the ones you will be using the most. The first one is for the end users who would be submitting the ticket. The second link is for the admin and IT Helpdesk employees who work the tickets to log in and work their magic. ***I would copy and paste each one it's own tab.***
+
+![image](https://github.com/user-attachments/assets/e97260ea-d0e6-4371-9ff3-992edab38b5a)
+
+*End user log in/ticket opener.
+
+![image](https://github.com/user-attachments/assets/3a963817-d73d-4e5a-800a-831be1c5438c)
+
+*Admin/Helpdesk log in/ticket closer.
+
+![image](https://github.com/user-attachments/assets/b72c19a5-25bb-423c-9cb0-b6ab43b40baf)
+
+*Once logged in you can see the "Agent Panel" which shows any open tickets specific to your department/team or all of them if your the Admin with full control/access. 
+From here you can open a ticket by clicking on "New Ticket" if you need to create one yourself, look at and work open tickets or assigned tickets, view closed tickets if you have access, view the detail and work/route a ticket. Note that it shows you the ticket number, last updated date, subject, department/team it came from, ahe SLA (Service Level Agreement) which is essentially the priority or importance level, and to whom/where it is assigned.
+
+![image](https://github.com/user-attachments/assets/492d08f6-8ff7-4ca0-b38a-ee216dc43220)
+
+- In the top right of the screen you can click on "Admin Panel".
+*On the next screen is where you can see all the different categories of controls by hovering over them and choose what you would like to customize and configure for the helpdesk. You can create users, agents, departments, teams, and configure what they can and cannot have access too. Under "Manage" you can create and configure help topics such as general inquiry or system outage, and also create/configure SLAs. 
+
+![image](https://github.com/user-attachments/assets/7434417e-9ffc-4ec4-a665-17b7c337de0a)
 
 <p>
-Now that we have completed downloading, installing, and making the necessary configurations, it is time to setup osTicket itself. Click here for the next steps in preparing osTicket as an admin for employees/end users!
+*Feel free to practice and play around in the osTicketing system and become a pro! You can start by creating an Agent who can create tickets, and then create a couple agents in different departments or teams who can work the tickets. Make sure to set up the SLAs. ChatGPT is a great tool for creating scenarios for you to practice and also to assist you in configuring your helpdesk business if you need it!! I thank you for using this tutorial for you osTicket installation and wish you the best! : )
 </p>
 <br />
