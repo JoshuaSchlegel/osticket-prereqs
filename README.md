@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. I'll be completing this tutorial using my Lenovo Thinkpad laptop running Windows 11 OS. Feel free to try it for yourself at no cost since <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account">Microsoft Azure</a> can be used by taking advantage of a free subscription for 30 days and/or $200 worth of credits. Lets do it!<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket using Windows 11. Feel free to try it for yourself at no cost since <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account">Microsoft Azure</a> can be used by taking advantage of a free subscription for 30 days and/or $200 worth of credits. Lets do it!<br />
 
 <h2>Environments and Technologies Used</h2>
 
