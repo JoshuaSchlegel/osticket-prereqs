@@ -23,6 +23,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - osTicket requirements such as PHP Manager, IIS Manager, MySQL, HeidiSQL etc..
 - Installation of osTicket.
 
+<h2>👨‍💻 Operating Systems Used </h2>
+
+- Windows 11 Pro
+- Windows 10</b> (21H2)
+
 <h2>Installation Steps</h2>
 
 <p>
