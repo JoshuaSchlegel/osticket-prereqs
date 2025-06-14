@@ -78,10 +78,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/90ef2ecb-ea83-40cf-9fe5-8d614ce3cedf)
 
-<p>
-*Once the VM (virtual machine) is created, we will log into it remotely using Remote Desktop Connection which can be pulled up from the start menu or searching it in the taskbar. You will need to copy and paste the public IP address into the text box and log in using the credentials you set for the VM when it was created. Once logged into the VM, we will begin installing the required software/programs for osTicket.
-</p>
-<br />
+
+***Once the VM (virtual machine) is created, we will log into it remotely using Remote Desktop Connection which can be pulled up from the start menu or searching it in the taskbar. You will need to copy and paste the public IP address into the text box and log in using the credentials you set for the VM when it was created. Once logged into the VM, we will begin installing the required software/programs for osTicket.***
+
 
 - After deployment of the VM shows to be done, click on "Home" in the top left of the screen.
 - Here you will see shortcuts under "Azure services" and you can just click on Virtual machines to be taken to the VM you just made.
@@ -102,7 +101,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/9806a474-074e-44e8-881e-c3ca55b27c06)
 
-**When confronted with all the options for Windows 10 after logging into the VM and/or pulling up the Microsoft Edge web browser, you can decline/say no to everything. If you already clicked through with any of the options selected it is not a big deal.**
+***When confronted with all the options for Windows 10 after logging into the VM and/or pulling up the Microsoft Edge web browser, you can decline/say no to everything. If you already clicked through with any of the options selected it is not a big deal.***
 
 - Copy and paste the <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account">osTicket-Installation-Files.zip</a> link inside our osTicketVM in a web browser to download the required files for osTicket.
 - Click "download anyway".
@@ -115,7 +114,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/44c81560-17b1-40b1-9661-bc695908e7f9)
 
-*We will first need to enable IIS (Internet Information Services) ***With CGI***.
+**We will first need to enable IIS (Internet Information Services)** ***"With CGI"***.
 - Pull up the control panel by searching for it in the task bar.
 - Click on "Uninstall a program" under "Programs".
 - On the left side, click on "Turn windows features on or off".
@@ -158,7 +157,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/ed7354e2-e28c-4fc6-8a5b-1168cc0f4aa5)
 
-***This next step is important that you pay attention to detail.***
+⚠️***This next step is important that you pay attention to detail.***
 - Back in the osTicket-Installation-Files folder, install MySQL 5.5.62 (mysql-5.5.62-win.32.msi)
 - Choose "Typical Setup" when presented with the option.
 - Leave "Launch Configuration Wizard (after install)" checked.
@@ -232,7 +231,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/d63769be-64f6-4381-9276-0b15b3765a0a)
 
-**You'll see towards the bottom half that some of the extensions are disabled. We are going to enable those.** 
+***You'll see towards the bottom half that some of the extensions are disabled. We are going to enable those.*** 
 
 - Back in IIS Manager, make sure you still have "osTicket" highlighted on the left side and click on PHP Manager.
 - Click on "Enable or disable an extension" towards the bottom of the screen.
@@ -247,7 +246,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/0642f42e-404a-47f9-ba8c-b0bf61a0fa8f)
 
-***Accuracy of the following steps are important!***
+⚠️***Accuracy of the following steps are important!***
 
 - In the C:\inetpub\wwwroot\osTicket\include folder, scroll down to find "ost-sampleconfig.php".
 - Rename it to ost-config.php by right clicking it and hitting rename.
@@ -330,13 +329,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/b72c19a5-25bb-423c-9cb0-b6ab43b40baf)
 
-**Once logged in you can see the "Agent Panel" which shows any open tickets specific to your department/team or all of them if your the Admin with full control/access.
-From here you can open a ticket by clicking on "New Ticket" if you need to create one yourself, look at and work open tickets or assigned tickets, view closed tickets if you have access, view the detail and work/route a ticket. Note that it shows you the ticket number, last updated date, subject, department/team it came from, ahe SLA (Service Level Agreement) which is essentially the priority or importance level, and to whom/where it is assigned.**
+***Once logged in you can see the "Agent Panel" which shows any open tickets specific to your department/team or all of them if your the Admin with full control/access.
+From here you can open a ticket by clicking on "New Ticket" if you need to create one yourself, look at and work open tickets or assigned tickets, view closed tickets if you have access, view the detail and work/route a ticket. Note that it shows you the ticket number, last updated date, subject, department/team it came from, ahe SLA (Service Level Agreement) which is essentially the priority or importance level, and to whom/where it is assigned.***
 
 ![image](https://github.com/user-attachments/assets/492d08f6-8ff7-4ca0-b38a-ee216dc43220)
 
 - In the top right of the screen you can click on "Admin Panel".
-**On the next screen is where you can see all the different categories of controls by hovering over them and choose what you would like to customize and configure for the helpdesk. You can create users, agents, departments, teams, and configure what they can and cannot have access too. Under "Manage" you can create and configure help topics such as general inquiry or system outage, and also create/configure SLAs.** 
+***On the next screen is where you can see all the different categories of controls by hovering over them and choose what you would like to customize and configure for the helpdesk. You can create users, agents, departments, teams, and configure what they can and cannot have access too. Under "Manage" you can create and configure help topics such as general inquiry or system outage, and also create/configure SLAs.*** 
 
 ![image](https://github.com/user-attachments/assets/7434417e-9ffc-4ec4-a665-17b7c337de0a)
 
