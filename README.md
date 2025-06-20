@@ -26,10 +26,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>🧰 Installation Steps</h2>
 
-<p>
-*Assuming you have a Microsoft Azure account already setup, the first thing we need to do is create a resource group in Microsfot Azure and create a virtual machine within that resource group. We will use Windows 10, 2 vCPUs with 8GB of RAM. I'll call it osTicketVM with a simple Username: osticket and Password: Password1234.
-</p>
-<br />
+
+***Assuming you have a Microsoft Azure account already setup, the first thing we need to do is create a resource group in Microsfot Azure and create a virtual machine within that resource group. We will use Windows 10, 2 vCPUs with 8GB of RAM. I'll call it osTicketVM with a simple Username: osticket and Password: Password1234.***
+
 
 - Once logged into Microsoft Azure, type "resource group" in the search bar located at the top of the screen and click on "Resource groups" to be taken to a screen where you can create a new resource group. I'll call the resource group "osTicketVM" as well, but you can name it anything you would like.
 
