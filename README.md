@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation Using Microsoft Azure Virtual Machies</h1>
+<h1>osTicket - ITSM Ticketing System Lab – osTicket Deployment</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket using Windows 11 and Microsoft Azure Virtual Machines. Feel free to try it for yourself at no cost since <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account">Microsoft Azure</a> can be used with a free subscription for 30 days and/or $200 worth of credits. Lets do it!<br />
 
 <h2>💻 Environments and Technologies Used</h2>
